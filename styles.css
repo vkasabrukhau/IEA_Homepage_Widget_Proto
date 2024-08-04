@@ -1,0 +1,8 @@
+.flex-grid-halves {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flex-grid-halves .col {
+  width: 48%;
+}
