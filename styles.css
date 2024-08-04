@@ -1,8 +1,67 @@
-.flex-grid-halves {
+.component {
+  width: 1000px;
+}
+
+.flex-grid-horizontal-half {
   display: flex;
+  width: 490px;
   justify-content: space-between;
 }
 
 .flex-grid-halves .col {
-  width: 48%;
+  width: 50%;
+  background-color: red;
+}
+
+.h-sausage {
+  width: 100%;
+}
+
+.square {
+  width: 50%;
+}
+
+.horizontal-sausage {
+  height: 200px;
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+img {
+  object-fit: cover;
+  width: 50px;
+  height: 100px;
+}
+
+.sqrs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.square {
+  height: 180px;
+  width: 47%;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  object-fit: cover;
+}
+
+.fill {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.fill img {
+  flex-shrink: 0;
+  min-width: 100%;
+  min-height: 100%;
 }
