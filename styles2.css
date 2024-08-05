@@ -1,13 +1,8 @@
 .primary-container {
   display: grid;
   justify-content: center;
-  grid-template-rows: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
-  grid-template-columns: 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px 80px;
-}
-
-.container {
-  background-color: lightcoral;
-  margin: 5px;
+  grid-template-rows: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
+  grid-template-columns: 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px 90px;
 }
 
 .container-1 {
